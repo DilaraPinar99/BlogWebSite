@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogWebSite.DAL\BlogWebSite.DAL.csproj" />
+    <ProjectReference Include="..\BlogWebSite.Shared\BlogWebSite.Shared.csproj" />
+    <ProjectReference Include="..\Models\BlogWebSite.Models.csproj" />
+  </ItemGroup>
+
+</Project>
